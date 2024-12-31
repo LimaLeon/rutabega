@@ -1,0 +1,8 @@
+prefix=/home/ryan08242004/catkin_ws/install
+
+Name: frostyBot
+Description: Description of frostyBot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

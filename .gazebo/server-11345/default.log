@@ -1,0 +1,12 @@
+Gazebo multi-robot simulator, version 11.11.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1665616324 586652938) [Msg] Waiting for master.
+(1665616324 596782932) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1665616324 596862013) [Msg] Publicized address: 172.31.98.240
+(1665616329 373322582) [Msg] Loading world file [/usr/share/gazebo-11/worlds/empty.world]
+(1665616329 666852610) Init world[default]
+(1665624061 619863905) [Wrn] [Publisher.cc:135] Queue limit reached for topic /gazebo/default/physics/contacts, deleting message. This warning is printed only once.

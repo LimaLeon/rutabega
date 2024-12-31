@@ -1,0 +1,40 @@
+[rosmaster.main][INFO] 2022-09-28 18:43:33,739: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-09-28 18:43:33,739: Starting ROS Master Node
+[xmlrpc][INFO] 2022-09-28 18:43:33,740: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-09-28 18:43:33,740: Started XML-RPC server [http://Eucolipsis:11311/]
+[xmlrpc][INFO] 2022-09-28 18:43:33,740: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-09-28 18:43:33,741: Master initialized: port[11311], uri[http://Eucolipsis:11311/]
+[rosmaster.master][INFO] 2022-09-28 18:43:33,783: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-09-28 18:43:33,784: +PARAM [/roslaunch/uris/host_eucolipsis__33299] by /roslaunch
+[rosmaster.master][INFO] 2022-09-28 18:43:33,825: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-09-28 18:43:33,825: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-09-28 18:43:33,902: +SERVICE [/rosout/get_loggers] /rosout http://Eucolipsis:33297/
+[rosmaster.master][INFO] 2022-09-28 18:43:33,903: +SERVICE [/rosout/set_logger_level] /rosout http://Eucolipsis:33297/
+[rosmaster.master][INFO] 2022-09-28 18:43:33,906: +PUB [/rosout_agg] /rosout http://Eucolipsis:33297/
+[rosmaster.master][INFO] 2022-09-28 18:43:33,911: +SUB [/rosout] /rosout http://Eucolipsis:33297/
+[rosmaster.master][INFO] 2022-09-28 18:45:51,261: +PUB [/rosout] /turtlesim http://Eucolipsis:34711/
+[rosmaster.master][INFO] 2022-09-28 18:45:51,262: +SERVICE [/turtlesim/get_loggers] /turtlesim http://Eucolipsis:34711/
+[rosmaster.master][INFO] 2022-09-28 18:45:51,263: +SERVICE [/turtlesim/set_logger_level] /turtlesim http://Eucolipsis:34711/
+[rosmaster.master][INFO] 2022-09-28 18:45:51,272: +PARAM [/turtlesim/background_r] by /turtlesim
+[rosmaster.master][INFO] 2022-09-28 18:45:51,273: +PARAM [/turtlesim/background_g] by /turtlesim
+[rosmaster.master][INFO] 2022-09-28 18:45:51,275: +PARAM [/turtlesim/background_b] by /turtlesim
+[rosmaster.master][INFO] 2022-09-28 18:45:51,311: +SERVICE [/clear] /turtlesim http://Eucolipsis:34711/
+[rosmaster.master][INFO] 2022-09-28 18:45:51,312: +SERVICE [/reset] /turtlesim http://Eucolipsis:34711/
+[rosmaster.master][INFO] 2022-09-28 18:45:51,312: +SERVICE [/spawn] /turtlesim http://Eucolipsis:34711/
+[rosmaster.master][INFO] 2022-09-28 18:45:51,313: +SERVICE [/kill] /turtlesim http://Eucolipsis:34711/
+[rosmaster.master][INFO] 2022-09-28 18:45:51,314: +CACHEDPARAM [/rosout_disable_topics_generation] by /turtlesim
+[rosmaster.master][INFO] 2022-09-28 18:45:51,318: +SUB [/turtle1/cmd_vel] /turtlesim http://Eucolipsis:34711/
+[rosmaster.master][INFO] 2022-09-28 18:45:51,318: +PUB [/turtle1/pose] /turtlesim http://Eucolipsis:34711/
+[rosmaster.master][INFO] 2022-09-28 18:45:51,319: +PUB [/turtle1/color_sensor] /turtlesim http://Eucolipsis:34711/
+[rosmaster.master][INFO] 2022-09-28 18:45:51,320: +SERVICE [/turtle1/set_pen] /turtlesim http://Eucolipsis:34711/
+[rosmaster.master][INFO] 2022-09-28 18:45:51,320: +SERVICE [/turtle1/teleport_relative] /turtlesim http://Eucolipsis:34711/
+[rosmaster.master][INFO] 2022-09-28 18:45:51,321: +SERVICE [/turtle1/teleport_absolute] /turtlesim http://Eucolipsis:34711/
+[rosmaster.master][INFO] 2022-09-28 18:45:51,351: publisherUpdate[/rosout] -> http://Eucolipsis:33297/ ['http://Eucolipsis:34711/']
+[rosmaster.master][INFO] 2022-09-28 18:45:51,356: publisherUpdate[/rosout] -> http://Eucolipsis:33297/ ['http://Eucolipsis:34711/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-09-28 19:43:02,926: -PUB [/rosout_agg] /rosout http://Eucolipsis:33297/
+[rosmaster.master][INFO] 2022-09-28 19:43:02,927: -SUB [/rosout] /rosout http://Eucolipsis:33297/
+[rosmaster.master][INFO] 2022-09-28 19:43:02,928: -SERVICE [/rosout/get_loggers] /rosout rosrpc://Eucolipsis:59653
+[rosmaster.master][INFO] 2022-09-28 19:43:02,928: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://Eucolipsis:59653
+[rosmaster.main][INFO] 2022-09-28 19:43:02,940: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2022-09-28 19:43:02,940: stopping master...
+[rospy.core][INFO] 2022-09-28 19:43:02,940: signal_shutdown [atexit]

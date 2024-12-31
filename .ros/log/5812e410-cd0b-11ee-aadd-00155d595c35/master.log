@@ -1,0 +1,21 @@
+[rosmaster.main][INFO] 2024-02-16 15:38:31,735: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2024-02-16 15:38:31,739: Starting ROS Master Node
+[xmlrpc][INFO] 2024-02-16 15:38:31,755: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2024-02-16 15:38:31,756: Started XML-RPC server [http://Eucolipsis:11311/]
+[rosmaster.master][INFO] 2024-02-16 15:38:31,756: Master initialized: port[11311], uri[http://Eucolipsis:11311/]
+[xmlrpc][INFO] 2024-02-16 15:38:31,757: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2024-02-16 15:38:31,785: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2024-02-16 15:38:31,788: +PARAM [/roslaunch/uris/host_eucolipsis__45593] by /roslaunch
+[rosmaster.master][INFO] 2024-02-16 15:38:31,859: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-02-16 15:38:31,860: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-02-16 15:38:32,049: +SERVICE [/rosout/get_loggers] /rosout http://Eucolipsis:35289/
+[rosmaster.master][INFO] 2024-02-16 15:38:32,050: +SERVICE [/rosout/set_logger_level] /rosout http://Eucolipsis:35289/
+[rosmaster.master][INFO] 2024-02-16 15:38:32,062: +PUB [/rosout_agg] /rosout http://Eucolipsis:35289/
+[rosmaster.master][INFO] 2024-02-16 15:38:32,071: +SUB [/rosout] /rosout http://Eucolipsis:35289/
+[rosmaster.master][INFO] 2024-02-16 15:53:47,367: -PUB [/rosout_agg] /rosout http://Eucolipsis:35289/
+[rosmaster.master][INFO] 2024-02-16 15:53:47,390: -SUB [/rosout] /rosout http://Eucolipsis:35289/
+[rosmaster.master][INFO] 2024-02-16 15:53:47,399: -SERVICE [/rosout/get_loggers] /rosout rosrpc://Eucolipsis:38483
+[rosmaster.master][INFO] 2024-02-16 15:53:47,401: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://Eucolipsis:38483
+[rosmaster.main][INFO] 2024-02-16 15:53:47,653: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2024-02-16 15:53:47,654: stopping master...
+[rospy.core][INFO] 2024-02-16 15:53:47,662: signal_shutdown [atexit]

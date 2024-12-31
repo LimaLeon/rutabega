@@ -1,0 +1,110 @@
+[rosmaster.main][INFO] 2022-10-05 18:51:22,839: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-10-05 18:51:22,840: Starting ROS Master Node
+[xmlrpc][INFO] 2022-10-05 18:51:22,842: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-10-05 18:51:22,842: Started XML-RPC server [http://Eucolipsis:11311/]
+[xmlrpc][INFO] 2022-10-05 18:51:22,842: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-10-05 18:51:22,842: Master initialized: port[11311], uri[http://Eucolipsis:11311/]
+[rosmaster.master][INFO] 2022-10-05 18:51:22,942: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-10-05 18:51:22,944: +PARAM [/roslaunch/uris/host_eucolipsis__37457] by /roslaunch
+[rosmaster.master][INFO] 2022-10-05 18:51:22,994: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-10-05 18:51:22,995: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-10-05 18:51:23,078: +SERVICE [/rosout/get_loggers] /rosout http://Eucolipsis:45785/
+[rosmaster.master][INFO] 2022-10-05 18:51:23,078: +SERVICE [/rosout/set_logger_level] /rosout http://Eucolipsis:45785/
+[rosmaster.master][INFO] 2022-10-05 18:51:23,080: +PUB [/rosout_agg] /rosout http://Eucolipsis:45785/
+[rosmaster.master][INFO] 2022-10-05 18:51:23,083: +SUB [/rosout] /rosout http://Eucolipsis:45785/
+[rosmaster.master][INFO] 2022-10-05 18:52:09,287: +PUB [/rosout] /turtlesim http://Eucolipsis:37977/
+[rosmaster.master][INFO] 2022-10-05 18:52:09,288: +SERVICE [/turtlesim/get_loggers] /turtlesim http://Eucolipsis:37977/
+[rosmaster.master][INFO] 2022-10-05 18:52:09,289: +SERVICE [/turtlesim/set_logger_level] /turtlesim http://Eucolipsis:37977/
+[rosmaster.master][INFO] 2022-10-05 18:52:09,302: +PARAM [/turtlesim/background_r] by /turtlesim
+[rosmaster.master][INFO] 2022-10-05 18:52:09,304: +PARAM [/turtlesim/background_g] by /turtlesim
+[rosmaster.master][INFO] 2022-10-05 18:52:09,306: +PARAM [/turtlesim/background_b] by /turtlesim
+[rosmaster.master][INFO] 2022-10-05 18:52:09,350: +SERVICE [/clear] /turtlesim http://Eucolipsis:37977/
+[rosmaster.master][INFO] 2022-10-05 18:52:09,351: +SERVICE [/reset] /turtlesim http://Eucolipsis:37977/
+[rosmaster.master][INFO] 2022-10-05 18:52:09,352: +SERVICE [/spawn] /turtlesim http://Eucolipsis:37977/
+[rosmaster.master][INFO] 2022-10-05 18:52:09,353: +SERVICE [/kill] /turtlesim http://Eucolipsis:37977/
+[rosmaster.master][INFO] 2022-10-05 18:52:09,354: +CACHEDPARAM [/rosout_disable_topics_generation] by /turtlesim
+[rosmaster.master][INFO] 2022-10-05 18:52:09,358: +SUB [/turtle1/cmd_vel] /turtlesim http://Eucolipsis:37977/
+[rosmaster.master][INFO] 2022-10-05 18:52:09,359: +PUB [/turtle1/pose] /turtlesim http://Eucolipsis:37977/
+[rosmaster.master][INFO] 2022-10-05 18:52:09,360: +PUB [/turtle1/color_sensor] /turtlesim http://Eucolipsis:37977/
+[rosmaster.master][INFO] 2022-10-05 18:52:09,361: +SERVICE [/turtle1/set_pen] /turtlesim http://Eucolipsis:37977/
+[rosmaster.master][INFO] 2022-10-05 18:52:09,361: +SERVICE [/turtle1/teleport_relative] /turtlesim http://Eucolipsis:37977/
+[rosmaster.master][INFO] 2022-10-05 18:52:09,362: +SERVICE [/turtle1/teleport_absolute] /turtlesim http://Eucolipsis:37977/
+[rosmaster.master][INFO] 2022-10-05 18:52:09,365: publisherUpdate[/rosout] -> http://Eucolipsis:45785/ ['http://Eucolipsis:37977/']
+[rosmaster.master][INFO] 2022-10-05 18:52:09,371: publisherUpdate[/rosout] -> http://Eucolipsis:45785/ ['http://Eucolipsis:37977/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-10-05 18:56:07,876: -SERVICE [/turtle1/teleport_absolute] /turtlesim rosrpc://Eucolipsis:34689
+[rosmaster.master][INFO] 2022-10-05 18:56:07,878: -SERVICE [/turtle1/teleport_relative] /turtlesim rosrpc://Eucolipsis:34689
+[rosmaster.master][INFO] 2022-10-05 18:56:07,880: -SERVICE [/turtle1/set_pen] /turtlesim rosrpc://Eucolipsis:34689
+[rosmaster.master][INFO] 2022-10-05 18:56:07,881: -PUB [/turtle1/color_sensor] /turtlesim http://Eucolipsis:37977/
+[rosmaster.master][INFO] 2022-10-05 18:56:07,882: -PUB [/turtle1/pose] /turtlesim http://Eucolipsis:37977/
+[rosmaster.master][INFO] 2022-10-05 18:56:07,884: -SUB [/turtle1/cmd_vel] /turtlesim http://Eucolipsis:37977/
+[rosmaster.master][INFO] 2022-10-05 18:56:07,885: -SERVICE [/kill] /turtlesim rosrpc://Eucolipsis:34689
+[rosmaster.master][INFO] 2022-10-05 18:56:07,886: -SERVICE [/spawn] /turtlesim rosrpc://Eucolipsis:34689
+[rosmaster.master][INFO] 2022-10-05 18:56:07,888: -SERVICE [/reset] /turtlesim rosrpc://Eucolipsis:34689
+[rosmaster.master][INFO] 2022-10-05 18:56:07,889: -SERVICE [/clear] /turtlesim rosrpc://Eucolipsis:34689
+[rosmaster.master][INFO] 2022-10-05 18:56:08,054: -PUB [/rosout] /turtlesim http://Eucolipsis:37977/
+[rosmaster.master][INFO] 2022-10-05 18:56:08,054: publisherUpdate[/rosout] -> http://Eucolipsis:45785/ []
+[rosmaster.master][INFO] 2022-10-05 18:56:08,055: -SERVICE [/turtlesim/get_loggers] /turtlesim rosrpc://Eucolipsis:34689
+[rosmaster.master][INFO] 2022-10-05 18:56:08,057: -SERVICE [/turtlesim/set_logger_level] /turtlesim rosrpc://Eucolipsis:34689
+[rosmaster.master][INFO] 2022-10-05 18:56:08,058: publisherUpdate[/rosout] -> http://Eucolipsis:45785/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-10-05 18:56:08,058: -CACHEDPARAM [/rosout_disable_topics_generation] by /turtlesim
+[rosmaster.master][INFO] 2022-10-05 18:56:32,756: +PUB [/rosout] /teleop_turtle http://Eucolipsis:40877/
+[rosmaster.master][INFO] 2022-10-05 18:56:32,757: +SERVICE [/teleop_turtle/get_loggers] /teleop_turtle http://Eucolipsis:40877/
+[rosmaster.master][INFO] 2022-10-05 18:56:32,757: +SERVICE [/teleop_turtle/set_logger_level] /teleop_turtle http://Eucolipsis:40877/
+[rosmaster.master][INFO] 2022-10-05 18:56:32,760: +PUB [/turtle1/cmd_vel] /teleop_turtle http://Eucolipsis:40877/
+[rosmaster.master][INFO] 2022-10-05 18:56:32,771: publisherUpdate[/rosout] -> http://Eucolipsis:45785/ ['http://Eucolipsis:40877/']
+[rosmaster.master][INFO] 2022-10-05 18:56:32,773: publisherUpdate[/rosout] -> http://Eucolipsis:45785/ ['http://Eucolipsis:40877/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-10-05 18:59:11,345: -PUB [/rosout] /teleop_turtle http://Eucolipsis:40877/
+[rosmaster.master][INFO] 2022-10-05 18:59:11,347: -PUB [/turtle1/cmd_vel] /teleop_turtle http://Eucolipsis:40877/
+[rosmaster.master][INFO] 2022-10-05 18:59:11,348: -SERVICE [/teleop_turtle/get_loggers] /teleop_turtle rosrpc://Eucolipsis:40259
+[rosmaster.master][INFO] 2022-10-05 18:59:11,349: -SERVICE [/teleop_turtle/set_logger_level] /teleop_turtle rosrpc://Eucolipsis:40259
+[rosmaster.master][INFO] 2022-10-05 18:59:11,432: publisherUpdate[/rosout] -> http://Eucolipsis:45785/ []
+[rosmaster.master][INFO] 2022-10-05 18:59:11,434: publisherUpdate[/rosout] -> http://Eucolipsis:45785/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-10-05 18:59:21,278: +PUB [/rosout] /turtlesim http://Eucolipsis:37211/
+[rosmaster.master][INFO] 2022-10-05 18:59:21,279: +SERVICE [/turtlesim/get_loggers] /turtlesim http://Eucolipsis:37211/
+[rosmaster.master][INFO] 2022-10-05 18:59:21,279: +SERVICE [/turtlesim/set_logger_level] /turtlesim http://Eucolipsis:37211/
+[rosmaster.master][INFO] 2022-10-05 18:59:21,281: publisherUpdate[/rosout] -> http://Eucolipsis:45785/ ['http://Eucolipsis:37211/']
+[rosmaster.master][INFO] 2022-10-05 18:59:21,283: publisherUpdate[/rosout] -> http://Eucolipsis:45785/ ['http://Eucolipsis:37211/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-10-05 18:59:21,302: +SERVICE [/clear] /turtlesim http://Eucolipsis:37211/
+[rosmaster.master][INFO] 2022-10-05 18:59:21,303: +SERVICE [/reset] /turtlesim http://Eucolipsis:37211/
+[rosmaster.master][INFO] 2022-10-05 18:59:21,304: +SERVICE [/spawn] /turtlesim http://Eucolipsis:37211/
+[rosmaster.master][INFO] 2022-10-05 18:59:21,305: +SERVICE [/kill] /turtlesim http://Eucolipsis:37211/
+[rosmaster.master][INFO] 2022-10-05 18:59:21,306: +CACHEDPARAM [/rosout_disable_topics_generation] by /turtlesim
+[rosmaster.master][INFO] 2022-10-05 18:59:21,309: +SUB [/turtle1/cmd_vel] /turtlesim http://Eucolipsis:37211/
+[rosmaster.master][INFO] 2022-10-05 18:59:21,310: +PUB [/turtle1/pose] /turtlesim http://Eucolipsis:37211/
+[rosmaster.master][INFO] 2022-10-05 18:59:21,311: +PUB [/turtle1/color_sensor] /turtlesim http://Eucolipsis:37211/
+[rosmaster.master][INFO] 2022-10-05 18:59:21,312: +SERVICE [/turtle1/set_pen] /turtlesim http://Eucolipsis:37211/
+[rosmaster.master][INFO] 2022-10-05 18:59:21,313: +SERVICE [/turtle1/teleport_relative] /turtlesim http://Eucolipsis:37211/
+[rosmaster.master][INFO] 2022-10-05 18:59:21,313: +SERVICE [/turtle1/teleport_absolute] /turtlesim http://Eucolipsis:37211/
+[rosmaster.master][INFO] 2022-10-05 19:00:14,325: +PUB [/rosout] /teleop_turtle http://Eucolipsis:36155/
+[rosmaster.master][INFO] 2022-10-05 19:00:14,326: +SERVICE [/teleop_turtle/get_loggers] /teleop_turtle http://Eucolipsis:36155/
+[rosmaster.master][INFO] 2022-10-05 19:00:14,327: publisherUpdate[/rosout] -> http://Eucolipsis:45785/ ['http://Eucolipsis:37211/', 'http://Eucolipsis:36155/']
+[rosmaster.master][INFO] 2022-10-05 19:00:14,328: +SERVICE [/teleop_turtle/set_logger_level] /teleop_turtle http://Eucolipsis:36155/
+[rosmaster.master][INFO] 2022-10-05 19:00:14,328: publisherUpdate[/rosout] -> http://Eucolipsis:45785/ ['http://Eucolipsis:37211/', 'http://Eucolipsis:36155/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-10-05 19:00:14,331: +PUB [/turtle1/cmd_vel] /teleop_turtle http://Eucolipsis:36155/
+[rosmaster.master][INFO] 2022-10-05 19:00:14,346: publisherUpdate[/turtle1/cmd_vel] -> http://Eucolipsis:37211/ ['http://Eucolipsis:36155/']
+[rosmaster.master][INFO] 2022-10-05 19:00:14,349: publisherUpdate[/turtle1/cmd_vel] -> http://Eucolipsis:37211/ ['http://Eucolipsis:36155/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-10-05 19:18:26,512: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2022-10-05 19:19:19,537: -SERVICE [/turtle1/teleport_absolute] /turtlesim rosrpc://Eucolipsis:37311
+[rosmaster.master][INFO] 2022-10-05 19:19:19,539: -SERVICE [/turtle1/teleport_relative] /turtlesim rosrpc://Eucolipsis:37311
+[rosmaster.master][INFO] 2022-10-05 19:19:19,540: -SERVICE [/turtle1/set_pen] /turtlesim rosrpc://Eucolipsis:37311
+[rosmaster.master][INFO] 2022-10-05 19:19:19,541: -PUB [/turtle1/color_sensor] /turtlesim http://Eucolipsis:37211/
+[rosmaster.master][INFO] 2022-10-05 19:19:19,542: -PUB [/turtle1/pose] /turtlesim http://Eucolipsis:37211/
+[rosmaster.master][INFO] 2022-10-05 19:19:19,544: -SUB [/turtle1/cmd_vel] /turtlesim http://Eucolipsis:37211/
+[rosmaster.master][INFO] 2022-10-05 19:19:19,546: -SERVICE [/kill] /turtlesim rosrpc://Eucolipsis:37311
+[rosmaster.master][INFO] 2022-10-05 19:19:19,547: -SERVICE [/spawn] /turtlesim rosrpc://Eucolipsis:37311
+[rosmaster.master][INFO] 2022-10-05 19:19:19,549: -SERVICE [/reset] /turtlesim rosrpc://Eucolipsis:37311
+[rosmaster.master][INFO] 2022-10-05 19:19:19,550: -SERVICE [/clear] /turtlesim rosrpc://Eucolipsis:37311
+[rosmaster.master][INFO] 2022-10-05 19:19:19,733: -PUB [/rosout] /turtlesim http://Eucolipsis:37211/
+[rosmaster.master][INFO] 2022-10-05 19:19:19,735: -SERVICE [/turtlesim/get_loggers] /turtlesim rosrpc://Eucolipsis:37311
+[rosmaster.master][INFO] 2022-10-05 19:19:19,736: -SERVICE [/turtlesim/set_logger_level] /turtlesim rosrpc://Eucolipsis:37311
+[rosmaster.master][INFO] 2022-10-05 19:19:19,738: -CACHEDPARAM [/rosout_disable_topics_generation] by /turtlesim
+[rosmaster.master][INFO] 2022-10-05 19:19:19,747: publisherUpdate[/rosout] -> http://Eucolipsis:45785/ ['http://Eucolipsis:36155/']
+[rosmaster.master][INFO] 2022-10-05 19:19:19,750: publisherUpdate[/rosout] -> http://Eucolipsis:45785/ ['http://Eucolipsis:36155/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-10-05 19:19:23,163: -PUB [/rosout_agg] /rosout http://Eucolipsis:45785/
+[rosmaster.master][INFO] 2022-10-05 19:19:23,164: -SUB [/rosout] /rosout http://Eucolipsis:45785/
+[rosmaster.master][INFO] 2022-10-05 19:19:23,165: -SERVICE [/rosout/get_loggers] /rosout rosrpc://Eucolipsis:54821
+[rosmaster.master][INFO] 2022-10-05 19:19:23,166: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://Eucolipsis:54821
+[rosmaster.master][INFO] 2022-10-05 19:19:23,168: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2022-10-05 19:19:23,266: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2022-10-05 19:19:23,267: stopping master...
+[rospy.core][INFO] 2022-10-05 19:19:23,271: signal_shutdown [atexit]
